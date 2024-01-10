@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/test-aleksandra/static/css/main.7acaea2f.css",
-    "main.js": "/test-aleksandra/static/js/main.07d3183d.js",
+    "main.css": "/test-aleksandra/static/css/main.2c4c8f08.css",
+    "main.js": "/test-aleksandra/static/js/main.aabf1900.js",
     "index.html": "/test-aleksandra/index.html",
-    "main.7acaea2f.css.map": "/test-aleksandra/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/test-aleksandra/static/js/main.07d3183d.js.map"
+    "main.2c4c8f08.css.map": "/test-aleksandra/static/css/main.2c4c8f08.css.map",
+    "main.aabf1900.js.map": "/test-aleksandra/static/js/main.aabf1900.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.2c4c8f08.css",
+    "static/js/main.aabf1900.js"
   ]
 }
