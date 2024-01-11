@@ -8,19 +8,25 @@ const BannerTop = () => {
             </div>
             <div className={css.bannerTopContent}>
                 <p className={css.bannerTopTitle}>
-                    <b>Black Friday,</b>
+                    <b>Black Friday, </b>
+                    <span className={css.bannerTopTitleFull}>24-27 Nov</span>
                 </p>
                 <p className={css.bannerTopText}>
                     <b>10%OFF</b>
                 </p>
                 <p className={css.bannerTopTextFr}>
-                    Use code <span className={css.bannerTopTextFrSpn}><b>10FRIDAY</b></span>
+                    Use code
+                    <span className={css.bannerTopTextFrSpn}><b>10FRIDAY</b></span>
+                    <span className={css.bannerTopTextFrSpnFull}>at checkout</span>
                 </p>
             </div>
             <div className={css.bannerMenu}>
                 <button type="button" className={css.bannerTopBtn}>
                     <img className={css.bannerTopBtnImg} alt='Menu button' ></img>
                     <p className={css.bannerTopBtnText}>Shop now</p>
+                </button>
+                <button type="button" className={css.bannerTopBtnClose}>
+                    <img className={css.bannerTopBtnCloseImg} alt='Banner close button' ></img>
                 </button>
             </div>
         </div>
