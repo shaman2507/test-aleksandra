@@ -1,11 +1,40 @@
-.bannerTop {
+.bannerTopContainer {
     display: flex;
-}
-
-.bannerTopImg {
-    
+    justify-content: space-between;
+    height: 54px;
+    margin-top: 108px;
+    background-color: black;
 }
 
 .bannerTopContent {
     display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
+
+.bannerTopTitle {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.bannerTopText {
+    margin-left: 4px;
+    color: #D7A830;
+}
+
+.bannerMenu {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+}
+
+.bannerTopBtn {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border: none;
+}
+
+/* @media screen and (min-width: 768px) */
