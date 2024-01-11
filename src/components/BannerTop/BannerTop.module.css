@@ -6,10 +6,16 @@
     background-color: black;
 }
 
+.bannerTopImg {
+    content: url('../../img/bannerTopMobile.jpg');
+    width: 128px;
+}
+
 .bannerTopContent {
     display: flex;
     padding-top: 12px;
     padding-bottom: 12px;
+    gap: 4px;
 }
 
 .bannerTopTitle {
@@ -20,8 +26,37 @@
 }
 
 .bannerTopText {
-    margin-left: 4px;
+    display: flex;
+    align-items: center;
     color: #D7A830;
+}
+
+.bannerTopText::before {
+    content: '';
+    position: relative;
+    right: 12px;
+    width: 3px;
+    height: 3px;
+    color: transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.15), #fff);
+}
+
+.bannerTopText::after {
+    content: '';
+    position: relative;
+    left: 12px;
+    width: 3px;
+    height: 3px;
+    color: transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.15), #fff);
+}
+
+.bannerTopTextFr {
+    display: none;
+}
+
+.bannerTopTextFrSpn {
+    display: none;
 }
 
 .bannerMenu {
@@ -37,4 +72,98 @@
     border: none;
 }
 
-/* @media screen and (min-width: 768px) */
+.bannerTopBtnImg {
+    content: url('../../img/menu-icon.svg');
+    height: 30px; 
+    width: 30px;
+}
+
+.bannerTopBtnText {
+    display: none;
+}
+
+
+/* ---------media rule for bannerTopText::before/after----------- */
+
+
+
+    
+@media screen and (max-width: 767px) {
+    .bannerTopText::before {
+        display: none;
+    }
+
+    .bannerTopText::after {
+        display: none;
+    }
+
+}
+
+
+
+
+    
+/* -----------media rule min-width: 768px ---------- */
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .bannerTopContainer {
+        margin-top: 54px;
+    }
+
+    .bannerTopImg {
+        content: url('../../img/bannerTopTablet.jpg');
+        width: 185px;
+    }
+
+    .bannerTopContent {
+        gap: 27px;
+    }
+
+    .bannerTopTextFr {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        gap: 4px;
+    }
+
+    .bannerTopTextFrSpn {
+        display: flex;
+        align-items: center;
+        color: #D7A830;
+    }
+
+    .bannerMenu {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 24px;
+    }
+
+    .bannerTopBtn {
+        height: 38px;
+        width: 115px;
+        border-radius: 100px;
+        background-color: #fff;
+    }
+
+    .bannerTopBtnImg {
+        display: none;
+    }
+
+    .bannerTopBtnText {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background: linear-gradient(60deg, #ffffff9a 5%, #0b0b0b 50%, #0B0B0B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B0B0B;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+        
