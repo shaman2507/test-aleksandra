@@ -8,7 +8,7 @@ const BannerTop = () => {
             </div>
             <div className={css.bannerTopContent}>
                 <p className={css.bannerTopTitle}>
-                    <b>Black Friday, </b>
+                    Black Friday, 
                     <span className={css.bannerTopTitleFull}>24-27 Nov</span>
                 </p>
                 <p className={css.bannerTopText}>
@@ -16,7 +16,7 @@ const BannerTop = () => {
                 </p>
                 <p className={css.bannerTopTextFr}>
                     Use code
-                    <span className={css.bannerTopTextFrSpn}><b>10FRIDAY</b></span>
+                    <span className={css.bannerTopTextFrSpn}>10FRIDAY</span>
                     <span className={css.bannerTopTextFrSpnFull}>at checkout</span>
                 </p>
             </div>
