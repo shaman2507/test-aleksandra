@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/test-aleksandra/static/css/main.5d3c77c8.css",
-    "main.js": "/test-aleksandra/static/js/main.c1c66ec7.js",
+    "main.css": "/test-aleksandra/static/css/main.c0f6c109.css",
+    "main.js": "/test-aleksandra/static/js/main.a671f828.js",
+    "static/media/bannerBottomBg.jpg": "/test-aleksandra/static/media/bannerBottomBg.95640674c9c5866cd2ca.jpg",
     "static/media/bannerBottomMobile.jpg": "/test-aleksandra/static/media/bannerBottomMobile.be742e76f54acbea8d14.jpg",
     "index.html": "/test-aleksandra/index.html",
     "static/media/Close.svg": "/test-aleksandra/static/media/Close.6281d610dea4d2ddacc3.svg",
     "static/media/menu-icon.svg": "/test-aleksandra/static/media/menu-icon.4183483feb8a5025b5ee.svg",
-    "main.5d3c77c8.css.map": "/test-aleksandra/static/css/main.5d3c77c8.css.map",
-    "main.c1c66ec7.js.map": "/test-aleksandra/static/js/main.c1c66ec7.js.map"
+    "main.c0f6c109.css.map": "/test-aleksandra/static/css/main.c0f6c109.css.map",
+    "main.a671f828.js.map": "/test-aleksandra/static/js/main.a671f828.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d3c77c8.css",
-    "static/js/main.c1c66ec7.js"
+    "static/css/main.c0f6c109.css",
+    "static/js/main.a671f828.js"
   ]
 }
