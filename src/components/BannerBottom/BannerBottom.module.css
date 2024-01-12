@@ -1,0 +1,67 @@
+.bannerBtmContainer {
+    margin-top: 500px;
+    padding: 15px;
+    height: 349px;
+    background-image: url('../../img/bannerBottomMobile.jpg');
+}
+
+.bannerBtmCloseBtn {
+    display: flex;
+    margin-left: auto;
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: black;
+}
+
+.bannerBtmCloseBtnImg {
+    content: url('../../img/Close.svg');
+    display: flex;
+    height: 24px;
+    width: 24px;
+}
+
+.bannerBtmContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerBtmTitle {
+    margin-top: 36px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.bannerBtmSubtitle {
+    margin-top: 25px;
+    margin-bottom: 0;
+    background: linear-gradient(60deg, #d2981aa5 40%, #d1ac5d 60%, #d2981adf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #d2981aa5;
+}
+
+.bannerBtmText {
+    margin-top: 14px;
+    margin-bottom: 40px;
+    color: #6C6C70;
+}
+
+.bannerBtmPart {
+    color: #D7A830;
+}
+
+.bannerBtmBtn {
+    margin-bottom: 55px;
+    height: 38px;
+    width: 115px;
+    border-radius: 14px;
+    background-color: #ffffff27;
+    border-color: transparent;
+}
+
+.bannerBtmBtnText {
+    margin: auto;
+    color: #fff;
+}
