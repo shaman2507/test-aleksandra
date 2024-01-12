@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/test-aleksandra/static/css/main.27957315.css",
-    "main.js": "/test-aleksandra/static/js/main.e8278337.js",
-    "static/media/bannerBottomBg.jpg": "/test-aleksandra/static/media/bannerBottomBg.95640674c9c5866cd2ca.jpg",
-    "static/media/bannerBottomMobile.jpg": "/test-aleksandra/static/media/bannerBottomMobile.be742e76f54acbea8d14.jpg",
-    "index.html": "/test-aleksandra/index.html",
-    "static/media/Close.svg": "/test-aleksandra/static/media/Close.6281d610dea4d2ddacc3.svg",
-    "static/media/menu-icon.svg": "/test-aleksandra/static/media/menu-icon.4183483feb8a5025b5ee.svg",
-    "main.27957315.css.map": "/test-aleksandra/static/css/main.27957315.css.map",
-    "main.e8278337.js.map": "/test-aleksandra/static/js/main.e8278337.js.map"
+    "main.css": "/test-tangem-aleksandra/static/css/main.e05ea80c.css",
+    "main.js": "/test-tangem-aleksandra/static/js/main.e8278337.js",
+    "static/media/bannerBottomBg.jpg": "/test-tangem-aleksandra/static/media/bannerBottomBg.95640674c9c5866cd2ca.jpg",
+    "static/media/bannerBottomMobile.jpg": "/test-tangem-aleksandra/static/media/bannerBottomMobile.be742e76f54acbea8d14.jpg",
+    "index.html": "/test-tangem-aleksandra/index.html",
+    "static/media/Close.svg": "/test-tangem-aleksandra/static/media/Close.6281d610dea4d2ddacc3.svg",
+    "static/media/menu-icon.svg": "/test-tangem-aleksandra/static/media/menu-icon.4183483feb8a5025b5ee.svg",
+    "main.e05ea80c.css.map": "/test-tangem-aleksandra/static/css/main.e05ea80c.css.map",
+    "main.e8278337.js.map": "/test-tangem-aleksandra/static/js/main.e8278337.js.map"
   },
   "entrypoints": [
-    "static/css/main.27957315.css",
+    "static/css/main.e05ea80c.css",
     "static/js/main.e8278337.js"
   ]
 }
