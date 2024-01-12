@@ -1,4 +1,7 @@
+
+
 .bannerBtmContainer {
+    position: relative;
     margin-top: 500px;
     padding: 15px;
     height: 349px;
@@ -19,6 +22,13 @@
     display: flex;
     height: 24px;
     width: 24px;
+}
+
+.bannerBtmWrapper {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
 }
 
 .bannerBtmContent {
@@ -57,11 +67,74 @@
     height: 38px;
     width: 115px;
     border-radius: 14px;
-    background-color: #ffffff27;
+    background-color: #ffffff1a;
     border-color: transparent;
 }
 
 .bannerBtmBtnText {
     margin: auto;
     color: #fff;
+}
+
+.bannerBtmBtnTextFull {
+    display: none;
+}
+
+
+
+/*-----------media rule min-width: 768px---------- */
+
+
+
+@media screen and (min-width: 768px) {
+    .bannerBtmContainer {
+        position: absolute;
+        right: 17px;
+        margin-top: 500px;
+        height: 349px;
+        width: 600px;
+        padding: 15px;
+        border-radius: 16px;
+        background-image: url('../../img/bannerBottomBg.jpg');
+    }
+
+    .bannerBtmWrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+
+    .bannerBtmBtn {
+        height: 42px;
+        width: 256px;
+    }
+
+    .bannerBtmBtnText {
+        display: none;
+    }
+
+    .bannerBtmBtnTextFull {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        color: #fff;
+    }
+}
+
+
+
+
+/*-----------media rule min-width: 1200px---------- */
+
+
+@media screen and (min-width: 1200px) {
+    .bannerBtmContainer {
+        right: 34px;
+        margin-top: 850px;
+        height: 349px;
+        width: 600px;
+        padding: 15px;
+        border-radius: 16px;
+        background-image: url('../../img/bannerBottomBg.jpg');
+    }
 }

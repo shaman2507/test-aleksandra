@@ -1,0 +1,8 @@
+.BannerBottom {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.BannerBottom.show {
+    opacity: 1;
+}
