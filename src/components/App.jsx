@@ -24,7 +24,7 @@ export const App = () => {
   return (
     <>
       <BannerTop />
-      {showBannerBottom && <BannerBottom />}
+      <BannerBottom className={`bannerBottom ${showBannerBottom ? "show" : ""}`} />
     </>
   );
 };

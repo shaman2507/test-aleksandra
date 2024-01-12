@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import css from './BannerBottom.module.css';
 
-const BannerBottom = () => {
+const BannerBottom = ({className }) => {
     const [isBannerClosed, setIsBannerClosed] = useState(
         sessionStorage.getItem("isBannerClosed") === "true"
     );
@@ -16,7 +16,7 @@ const BannerBottom = () => {
     }
 
     return (
-        <>
+        <div className={className}>
             <div className={css.bannerBtmContainer}>
                 <button className={css.bannerBtmCloseBtn} type="button" onClick={handleBannerClose}>
                     <img className={css.bannerBtmCloseBtnImg} alt='Menu button' ></img>
@@ -35,7 +35,7 @@ const BannerBottom = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
